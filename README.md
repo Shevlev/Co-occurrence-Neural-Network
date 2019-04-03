@@ -53,5 +53,9 @@ w_initializer - the initializer of the spatial filter
 - Pay attention that spatial term is a 3D filter.
 - The size of co-occurrence matrix can be defined up to [10x10] in order to speed the network to converge. (From the previous experiments the input statistic doen't requires more than [7x7]).
 
+## Toy Example
+
+These folder contains the code that implement the Toy Example of using the CoL and its performances are compared to the performances of other common layers. 
+
 
 
