@@ -49,13 +49,13 @@ w_initializer - the initializer of the spatial filter
 
 ## Limitations 
 
-- The number of the channels in the input and output have to equal.
-- Pay attention that spatial term is a 3D filter.
-- The size of co-occurrence matrix can be defined up to [10x10] in order to speed the network to converge. (From the previous experiments the input statistic doen't requires more than [7x7]).
+- The number of input and output channels must be the same.
+- The spatial term is a 3D filter.
+- The size of co-occurrence matrix can be defined up to [10x10] in order to speed the network convergence. (In our experience, input statistics does not require co-occurrence matrix larger than  [7x7]).
 
 ## Toy Example
 
-These folder contains the code that implement the Toy Example of using the CoL and its performances are compared to the performances of other common layers. 
+This folder contains the code that implements the Toy Example of using the CoL. Its performances are compared to the performances of other common layers.
 
 
 
